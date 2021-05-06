@@ -1,0 +1,15 @@
+body{
+    align-items: center;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+select{
+    display: block;
+    width: 200px;
+    font-size: 150%;
+    margin: 0 auto;
+}

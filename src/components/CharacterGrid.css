@@ -1,0 +1,14 @@
+li, img{
+    display: block;
+}
+
+.grid img:hover{
+    opacity: 60%;
+    cursor: pointer;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}

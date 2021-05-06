@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-image: url("https://stardewvalleywiki.com/mediawiki/extensions/StardewValley/images/stardewbackground.png");
+  font-family: "text"
+}
+
+h2{
+  color: rgb(253, 244, 201);;
+}
+
+h1{
+  font-family: "title";
+  font-size: 200%;
+  color: rgb(253, 244, 201);
+}
+
+select, option{
+  font-family: "pixel";
+}
+
+@font-face {
+  font-family: "pixel";
+  src: url('./components/StardewValleyPixel.ttf');
+  format: ("truetype");
+}
+
+@font-face {
+  font-family: "text";
+  src: url('./components/StardewValleyText.ttf');
+  format: ("truetype");
+}
+
+@font-face {
+  font-family: "title";
+  src: url('./components/StardewValleyCAPS.ttf');
+  format: ("truetype");
+}
