@@ -14,6 +14,7 @@ function FeaturedCharacter(props) {
 
     return (
       <div className="FeaturedCharacter">
+          {props.featVillager.img && 
           <table>  
               <tbody>
                   <td>
@@ -22,11 +23,11 @@ function FeaturedCharacter(props) {
                   <td>
                     <h2>{props.featVillager.name}</h2>
                     <li>Birthday: {props.featVillager.birthday}</li>
-                    <li>Favourite Gifts: {writeList(props.featVillager.favGifts)}</li>
+                    <li>Favourite Gifts: {props.featVillager.favGifts && writeList(props.featVillager.favGifts)}</li>
                   </td>
               </tbody>
           </table>
-          
+          }
       </div>
     );
   }

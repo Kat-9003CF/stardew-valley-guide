@@ -4,15 +4,16 @@ h2{
 
 table {
     margin: 0 auto;
-    width: 60%;
+    width: 70%;
     padding: 20px;
 }
 
-p{
-    padding: 10px;
-    font-size:130%;
-}
 
 td{
     border-style:double;
+}
+
+table li{
+    padding: 5px;
+    font-size: 120%;
 }
