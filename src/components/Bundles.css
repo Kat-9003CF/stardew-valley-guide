@@ -1,0 +1,20 @@
+.Spring{
+    margin: 0 auto;
+}
+
+.collected {
+    color:grey;
+    text-decoration-line: line-through;
+}
+
+.Spring td{
+    padding: 2px;
+}
+
+.Spring table{
+    text-align: left;
+}
+
+.collectedImg{
+    opacity: 50%;
+}

@@ -1,0 +1,18 @@
+.events img{
+    display: inline;
+    margin-right: 5px;
+}
+
+
+.events{
+    width: 40%;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.events h2{
+    margin: 5px;
+    margin-top: 20px;
+}

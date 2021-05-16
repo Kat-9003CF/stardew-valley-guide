@@ -8,7 +8,11 @@ function Friendship(props) {
 function generateHearts(n){
     let friendship =[];
     for (let i = 0; i<n;i++){
-        friendship.push(<img  className='hearts' width = '30px' src ="https://e7.pngegg.com/pngimages/616/424/png-clipart-health-video-game-pixel-art-bar-health-game-rectangle-thumbnail.png"></img>)
+        friendship.push(<img  className='hearts' width = '20px' src ="images/heart.png"></img>)
+    }
+
+    for (let i=n; i<=8;i++){
+        friendship.push(<img  className='hearts' width = '18px' src ="images/emptyheart.png"></img>)
     }
     return friendship
     }

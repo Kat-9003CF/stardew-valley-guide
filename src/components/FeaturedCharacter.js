@@ -13,13 +13,6 @@ const [friendship, setFriendship] = useState(props.featVillager.hearts)
         return faves;
     }
 
-// function generateHearts(n){
-//       let friendship =[];
-//       for (let i = 0; i<n;i++){
-//         friendship.push(<img width = '30px' src ="https://e7.pngegg.com/pngimages/616/424/png-clipart-health-video-game-pixel-art-bar-health-game-rectangle-thumbnail.png"></img>)
-//       }
-//       return friendship
-//     }
 
     return (
       <div className="FeaturedCharacter">

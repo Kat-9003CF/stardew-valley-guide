@@ -1,18 +1,22 @@
-h2{
+
+.FeaturedCharacter table {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 70%;
+    background-color: rgb(253, 244, 201, 0.4);
+
+}
+
+table h2{
     color: black;
 }
 
-table {
-    margin: 0 auto;
-    width: 70%;
-    padding: 20px;
-}
-
-td{
+.FeaturedCharacter td{
     border-style:double;
 }
 
 table li{
     padding: 5px;
-    font-size: 120%;
+    font-size: 130%;
 }

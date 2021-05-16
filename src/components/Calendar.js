@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Calendar.css";
 import seasonsData from './SeasonsData';
+import EventList from './EventList'
+
 
 function Calendar() {
     const [seasons, setSeasons] = useState(seasonsData);
@@ -11,8 +13,11 @@ function handleChange(event) {
     let newSeason = seasons.find(s => s.name ===seasonName)
     setChosenSeason(newSeason);
     }
+
     
     return (
+    
+
       <div className="Calendar">
         <h2>Calendar</h2>
         <img alt = {chosenSeason['name']} src = {chosenSeason['img']} />
@@ -24,8 +29,10 @@ function handleChange(event) {
                 <option>Winter</option>
         </select>
 
-      </div>
-    );
+<EventList dates={chosenSeason.dates} />
+
+    </div>
+    )
   }
   
   export default Calendar;

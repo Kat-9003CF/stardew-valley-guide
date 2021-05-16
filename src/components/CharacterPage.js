@@ -11,16 +11,17 @@ function CharacterPage(props) {
 
   const setFeat = (id) => {
     let ix = props.villagers.findIndex(v => (v.id ===id));
-    console.log(props.villagers[ix]['name'], 'has been clicked');
     setFeatVillager(props.villagers[ix]);
   }
 
     return (
       <div className="characterPage">
-        <FeaturedCharacter featVillager ={featVillager}/>
-        <CharacterGrid 
+        <h2>Villagers</h2>
+        {(featVillager.length===0) ? <h2>Select a villager to view more information</h2> :
+        <FeaturedCharacter featVillager ={featVillager}/>}
+        <div className = "CharGrid"><CharacterGrid 
         villagers={props.villagers} 
-        selectCb={id => setFeat(id)}/>
+        selectCb={id => setFeat(id)}/></div>
       </div>
     );
   }

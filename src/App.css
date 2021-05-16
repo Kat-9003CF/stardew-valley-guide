@@ -2,19 +2,41 @@
   text-align: center;
 }
 
-body{
-  background-image: url("https://stardewvalleywiki.com/mediawiki/extensions/StardewValley/images/stardewbackground.png");
-  font-family: "text"
+nav{
+  background-color: lightblue;
+  padding: 10px;
+  font-size: 120%;
 }
 
-h2{
-  color: rgb(253, 244, 201);;
+.App ul{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto; 
+}
+
+.darkFont{
+  color: black;
+}
+body{
+  background-image: url("https://stardewvalleywiki.com/mediawiki/extensions/StardewValley/images/stardewbackground.png");
+  font-family: "text";
 }
 
 h1{
-  font-family: "title";
-  font-size: 200%;
+  font-size: 40px;
+}
+
+h2{
   color: rgb(253, 244, 201);
+  font-size: 30px;
+  margin: 50px;
+}
+
+h3 {
+
+    color: rgb(253, 244, 201);
+    font-size: 20px;
+    margin: 30px;
 }
 
 select, option{
