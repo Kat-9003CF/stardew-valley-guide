@@ -17,8 +17,8 @@ const markComplete = (name) => {
 
 return (
 <div>
-    <h2>Bundles Checklists</h2>
-    <h3>Spring Crops Bundle</h3><img src = '/images/SpringBundle.png'></img>
+    <h2>Bundles</h2>
+    <h3 className = 'darkFont'>Spring Crops Bundle</h3><img src = '/images/SpringBundle.png'></img>
     <table className = 'Spring Crops'>
         <tbody>
         {bundles.map(b => (

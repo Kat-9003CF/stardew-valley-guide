@@ -17,7 +17,7 @@ function CharacterPage(props) {
     return (
       <div className="characterPage">
         <h2>Villagers</h2>
-        {(featVillager.length===0) ? <h2>Select a villager to view more information</h2> :
+        {(featVillager.length===0) ? <h2 className = 'darkFont'>Select a villager to view more information</h2> :
         <FeaturedCharacter featVillager ={featVillager}/>}
         <div className = "CharGrid"><CharacterGrid 
         villagers={props.villagers} 

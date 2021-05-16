@@ -12,10 +12,8 @@ select{
     width: 200px;
     font-size: 150%;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
-.event{
-    display: grid;
-}
+
 

@@ -16,7 +16,7 @@ function CharacterGrid(props){
                     <li key ={v.id} 
                     onClick = {(e) => props.selectCb(v.id)}>
                     <img src = {v.img} onClick ={(e) => props.selectCb(v.id)}></img>
-                    {v.name} <br/>
+                    <p>{v.name}</p> <br/>
                     </li>
                 ))
                 }      

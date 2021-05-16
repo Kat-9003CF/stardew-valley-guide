@@ -10,12 +10,17 @@ li{
 .grid img{ 
     margin: 0, auto;
     margin-bottom: 5px;
-    display: block;
+    text-align: justify;
 }
 
-.grid ul {
+.grid ul{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     margin: 0 auto;
+    
 }
 
+.grid p{
+    display: grid;
+    text-align:unset;
+}
