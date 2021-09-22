@@ -18,9 +18,13 @@ nav{
   color: black;
 }
 body{
-  background-image: url("https://i.pinimg.com/originals/b8/1a/a4/b81aa44ba47c8ebb93c4525a96904101.jpg");
-  background-size:cover;
+
   font-family: "text";
+}
+
+body {
+  background-image: url("https://i.pinimg.com/originals/b8/1a/a4/b81aa44ba47c8ebb93c4525a96904101.jpg");
+  height:fit-content;
 }
 
 h1{
