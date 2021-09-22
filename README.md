@@ -1,4 +1,4 @@
-#StarDew Valley Visitor's Guide
+# StarDew Valley Visitor's Guide
 
 This is an app built as a companion app for the game, Stardew Valley.  
 
@@ -12,11 +12,11 @@ This is a minimum viable project.  Players can:
 
 At present this is a front end app as it was my first project, but I plan to add a back end database to allow players to update friendship levels with characters, as well as keep track of the 'bundles' and which items have been collected.
 
--Install
+- Install
 
 `yarn` 
 
--Usage
+- Usage
 
 `yarn start`
 
