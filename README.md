@@ -1,10 +1,10 @@
-# StarDew Valley Visitor's Guide
+# Stardew Valley Visitor's Guide
 
 This is an app built as a companion app for the game, Stardew Valley.  
 
 Stardew Valley is an immersive RPG with lots of storylines, items and characters to engage with, and for the casual player this can lead to 'works-in-progress' being forgotten.
 
-## This is a minimum viable project.  Players can:
+### This is a minimum viable project.  Players can currently:
 
 - select a character and find out information about them which helps you build friendship with them.  (Friendship level is dummy data at present)
 - find out when key in-game events are happening using the calendar.
